@@ -1,0 +1,47 @@
+body, main {
+    display: flex;
+  }
+  
+  
+  
+  body {
+    flex-direction: column;
+    background-color: bisque;
+    height: 100vh;
+    
+  }
+
+  .logo {
+    font-size: 1.5em;
+  }
+
+  h1,h2,h3 {
+color: darkcyan;
+  }
+  
+  
+  main {
+    flex-direction: row;
+    justify-content: space-between;
+    flex: auto;
+  }
+  table {
+    border:1px solid;
+  }
+  
+  
+  article {
+    flex: 2;
+    border: 1px solid #ccc;
+  }
+  
+  aside {
+    flex: 1;
+    border: 1px solid #ccc;
+  }
+  
+  
+  article, aside {
+    overflow-y: auto;
+  }
+  
